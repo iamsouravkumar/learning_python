@@ -14,3 +14,7 @@ hey i am "sourav" kumar
 i am a "coder"
 '''
 
+# using seapraters
+
+print("sourav", 19, 2024, sep="-", end="0000\n")
+print("kumar")
