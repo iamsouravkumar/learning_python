@@ -18,3 +18,15 @@ i am a "coder"
 
 print("sourav", 19, 2024, sep="-", end="0000\n")
 print("kumar")
+
+
+# variables and data types
+
+a= 10 # integer
+b= "sourav" # string
+c= True # boolean
+d = None # none
+e = complex(10, 20) # complex number
+f = 1.5 # float
+print(a, b, c, d, e, f)
+print(type(a), type(b), type(c), type(d), type(e), type(f))
