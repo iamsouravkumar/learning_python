@@ -21,8 +21,7 @@ print("sourav", 19, 2024, sep="-", end="0000\n")
 print("kumar")
 """
 
-
-# # variables and data types
+# variables and data types
 
 """
 a= 10 # integer
@@ -35,7 +34,7 @@ print(a, b, c, d, e, f)
 print(type(a), type(b), type(c), type(d), type(e), type(f))
 """
 
-# operators in 
+# operators in puthon
 
 """
 print(5+6) # addition
@@ -95,7 +94,7 @@ print(fruit[-4:-2])"""
 # string methods in python
 #strings are immutable in python
 
-a = "!!!Sourav!!! !!!!!! Kumar!!!!"
+'''a = "!!!Sourav!!! !!!!!! Kumar!!!!"
 print(len(a)) #to print the length of a string
 print(a)
 print(a.upper()) #to uppercase the string
@@ -149,5 +148,63 @@ str1 = "Python is a Interpreted Language"
 print(str1.swapcase()) # swaps the uppercase letter into lowercase and vice-versa
 
 str1 = "His name is sourav. He is good boy"
-print(str1.title()) # capitalize the each letter of teh word within the string
+print(str1.title()) # capitalize the each letter of teh word within the string'''
 
+# if-else statement
+
+# conditional operators
+#>, <, >=, <=, ==, !=
+
+'''a= int(input("Enter Your Age: "))
+print("Your age is:", a)
+
+if(a<18):
+    print("No, you cannot drive")
+
+else:
+    print("Yes, you can drive")'''
+
+#example 2
+
+'''applePrice = 10
+budget = 200
+
+if(budget - applePrice > 50):
+    print("Alexa, add 1 KG apples to the cart.")
+
+else:
+    print("ALexa, do not add apples to the cart.")'''
+
+# elif statement
+
+'''num = int(input("Enter the value of num: "))
+
+if(num < 0):
+    print("Number is Negative")
+
+elif(num == 0):
+    print("Number is Zero")
+
+elif(num == 999):
+    print("Number is Special")
+
+else:
+    print("Number is Positive")'''
+
+# nested if statement
+
+'''num = 18
+if(num < 0):
+    print("Number is Negative")
+elif(num > 0):
+    if(num <= 10):
+        print("Number is between 1-10")
+
+    elif(num > 10 and num <=20):
+        print("Number is between 11-20")
+
+    else:
+        print("Number is greater than 20")
+
+else:
+    print("Number is Zero")'''
